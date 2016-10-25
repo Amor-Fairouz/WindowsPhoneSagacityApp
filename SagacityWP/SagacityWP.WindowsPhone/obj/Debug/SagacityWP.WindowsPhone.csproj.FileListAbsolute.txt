@@ -1,0 +1,253 @@
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Authors.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Profile.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Quotes.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.xr.xml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.build.appxrecipe
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\DrawerLayout.dll
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.i.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xaml
+C:\Users\Samsung\Documents\Visual Studio 2015\Projects\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Authors.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quotes.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Authors.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Profile.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Quotes.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.xr.xml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.build.appxrecipe
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\DrawerLayout.dll
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Facebook.dll
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Facebook.xml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Samsung\Desktop\test\SagacityWP\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\AuthorPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\DetailsAuthorPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Profile.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Views\QuotesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.xr.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\SagacityWP.WindowsPhone.build.appxrecipe
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\DrawerLayout.dll
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Facebook.dll
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Parse.dll
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Parse.WinRT.dll
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Facebook.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Parse.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\Debug\Parse.WinRT.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AuthorPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AuthorPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DetailsAuthorPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DetailsAuthorPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\QuotesPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\QuotesPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AuthorPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DetailsAuthorPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\QuotesPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AccPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\AuthorPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DetailsAuthorPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\DvHumanPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\FavoritesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\LoginPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\MoodChoice.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Profile.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\Quizz.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\Views\QuotesPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.exe
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.pdb
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\SagacityWP.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\Debug\ProjectArchitectures.txt

@@ -1,0 +1,6 @@
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\MainPage.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\MainPage.xaml
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\MainPage.xbf
+C:\Users\Samsung\Desktop\test\SagacityWP1\SagacityWP\SagacityWP.Windows\obj\Debug\XamlSaveStateFile.xml

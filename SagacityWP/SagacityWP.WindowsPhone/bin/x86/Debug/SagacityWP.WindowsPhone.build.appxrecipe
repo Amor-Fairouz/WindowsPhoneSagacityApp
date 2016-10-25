@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FAYROUZ</Machine>
+    <WindowsUser>amor</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>07a64e8a-dfa1-4a49-b0cb-8cf7769e59c8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\SagacityWP.WindowsPhone.exe">
+      <PackagePath>SagacityWP.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\DrawerLayout.1.0.4\lib\DrawerLayout.dll">
+      <PackagePath>DrawerLayout.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\Facebook.7.0.6\lib\portable-win81+wpa81\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\Parse.1.6.2\lib\wpa81\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\Parse.1.6.2\lib\wpa81\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\NotificationsExtensions.1.0.0\lib\portable-wpa81+win81\NotificationsExtensions.winmd">
+      <PackagePath>NotificationsExtensions.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.9.2\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\1.jpg">
+      <PackagePath>Assets\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\2.jpg">
+      <PackagePath>Assets\2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\3.jpg">
+      <PackagePath>Assets\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\4.jpg">
+      <PackagePath>Assets\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\5.jpg">
+      <PackagePath>Assets\5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\7.jpg">
+      <PackagePath>Assets\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\angryB.jpg">
+      <PackagePath>Assets\angryB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\a-milne.jpg">
+      <PackagePath>Assets\Authors\a-milne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\abbie-hoffman.jpg">
+      <PackagePath>Assets\Authors\abbie-hoffman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\abraham-cowley.jpg">
+      <PackagePath>Assets\Authors\abraham-cowley.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\aeschylus-1.jpg">
+      <PackagePath>Assets\Authors\aeschylus-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\ahlam-mosteghanemi-5.jpg">
+      <PackagePath>Assets\Authors\ahlam-mosteghanemi-5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\alan-cumming.jpg">
+      <PackagePath>Assets\Authors\alan-cumming.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\alan-jay-lerner-2.jpg">
+      <PackagePath>Assets\Authors\alan-jay-lerner-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\albert-einstein-2.jpg">
+      <PackagePath>Assets\Authors\albert-einstein-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\alexander-graham-bell.jpg">
+      <PackagePath>Assets\Authors\alexander-graham-bell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Authors\bill-gates.jpg">
+      <PackagePath>Assets\Authors\bill-gates.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub1.jpg">
+      <PackagePath>Assets\hub1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub10.jpg">
+      <PackagePath>Assets\hub10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub11.jpg">
+      <PackagePath>Assets\hub11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub2.jpg">
+      <PackagePath>Assets\hub2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub3.jpg">
+      <PackagePath>Assets\hub3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub4.jpg">
+      <PackagePath>Assets\hub4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub5.jpg">
+      <PackagePath>Assets\hub5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub6.jpg">
+      <PackagePath>Assets\hub6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub7.jpg">
+      <PackagePath>Assets\hub7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub8.jpg">
+      <PackagePath>Assets\hub8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\hub9.jpg">
+      <PackagePath>Assets\hub9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\3f20fdfcee5173870c176f2a1b16956a.jpg">
+      <PackagePath>Assets\sagacty\3f20fdfcee5173870c176f2a1b16956a.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\42f38505e1448aabd7bf9535a5b6a927.jpg">
+      <PackagePath>Assets\sagacty\42f38505e1448aabd7bf9535a5b6a927.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\656fda80432c2b36b1775fc522565e09.jpg">
+      <PackagePath>Assets\sagacty\656fda80432c2b36b1775fc522565e09.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\82ba2097cb9af6f0bba86fc209700795.jpg">
+      <PackagePath>Assets\sagacty\82ba2097cb9af6f0bba86fc209700795.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\97811b6a5fc2d1926c8efb098e4ccf79.jpg">
+      <PackagePath>Assets\sagacty\97811b6a5fc2d1926c8efb098e4ccf79.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\b157f5791666fea1fa69f233d38bbba7.jpg">
+      <PackagePath>Assets\sagacty\b157f5791666fea1fa69f233d38bbba7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\c637bc522ee56cb34fdd1a5268c3f480.jpg">
+      <PackagePath>Assets\sagacty\c637bc522ee56cb34fdd1a5268c3f480.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\cda42a3dd1f3973f5ccf25e3ba8398b5.jpg">
+      <PackagePath>Assets\sagacty\cda42a3dd1f3973f5ccf25e3ba8398b5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\d178d22770eb2944d32caee50ecd4be4.jpg">
+      <PackagePath>Assets\sagacty\d178d22770eb2944d32caee50ecd4be4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\d88606755faac4a0bed67d836f36c877.jpg">
+      <PackagePath>Assets\sagacty\d88606755faac4a0bed67d836f36c877.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\da2a693e83531995068f67dc19e65ac6.jpg">
+      <PackagePath>Assets\sagacty\da2a693e83531995068f67dc19e65ac6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\dd201538e610442ff96ea766fa957055.jpg">
+      <PackagePath>Assets\sagacty\dd201538e610442ff96ea766fa957055.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\dfa95a5b881912d917134b354c3b9e5d.jpg">
+      <PackagePath>Assets\sagacty\dfa95a5b881912d917134b354c3b9e5d.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\e87ac7f5cab7252433eafeaecdd88d44.jpg">
+      <PackagePath>Assets\sagacty\e87ac7f5cab7252433eafeaecdd88d44.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\e985b6e244d4f493af915f61ae1bc166.jpg">
+      <PackagePath>Assets\sagacty\e985b6e244d4f493af915f61ae1bc166.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\f6b9c01b9ed538472a08a84a38dbeb26.jpg">
+      <PackagePath>Assets\sagacty\f6b9c01b9ed538472a08a84a38dbeb26.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h10.jpg">
+      <PackagePath>Assets\sagacty\h10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h11.jpg">
+      <PackagePath>Assets\sagacty\h11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h12.jpg">
+      <PackagePath>Assets\sagacty\h12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h15.jpg">
+      <PackagePath>Assets\sagacty\h15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h2.jpg">
+      <PackagePath>Assets\sagacty\h2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h5.jpg">
+      <PackagePath>Assets\sagacty\h5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h6.jpg">
+      <PackagePath>Assets\sagacty\h6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h7.jpg">
+      <PackagePath>Assets\sagacty\h7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\h8.jpg">
+      <PackagePath>Assets\sagacty\h8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\happy1.jpg">
+      <PackagePath>Assets\sagacty\happy1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\hh.jpg">
+      <PackagePath>Assets\sagacty\hh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sagacty\hh1.jpg">
+      <PackagePath>Assets\sagacty\hh1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sleepyB.jpg">
+      <PackagePath>Assets\sleepyB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\splashScreen.jpg">
+      <PackagePath>Assets\splashScreen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\HubBackground.theme-dark.png">
+      <PackagePath>Assets\HubBackground.theme-dark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\HubBackground.theme-light.png">
+      <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Authors.png">
+      <PackagePath>Assets\Icons\Authors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Authors2.png">
+      <PackagePath>Assets\Icons\Authors2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Authors3.png">
+      <PackagePath>Assets\Icons\Authors3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Authors4.png">
+      <PackagePath>Assets\Icons\Authors4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Authors5.png">
+      <PackagePath>Assets\Icons\Authors5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Categories.png">
+      <PackagePath>Assets\Icons\Categories.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Categories2.png">
+      <PackagePath>Assets\Icons\Categories2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Categories3.png">
+      <PackagePath>Assets\Icons\Categories3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Categories4.png">
+      <PackagePath>Assets\Icons\Categories4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Categories5.png">
+      <PackagePath>Assets\Icons\Categories5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\fb.png">
+      <PackagePath>Assets\Icons\fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\google+.png">
+      <PackagePath>Assets\Icons\google+.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\guest.png">
+      <PackagePath>Assets\Icons\guest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\guest1.png">
+      <PackagePath>Assets\Icons\guest1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\guestImage.png">
+      <PackagePath>Assets\Icons\guestImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Heart2.png">
+      <PackagePath>Assets\Icons\Heart2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Heart3.png">
+      <PackagePath>Assets\Icons\Heart3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Heart4.png">
+      <PackagePath>Assets\Icons\Heart4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Heart5.png">
+      <PackagePath>Assets\Icons\Heart5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\House.png">
+      <PackagePath>Assets\Icons\House.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\House2.png">
+      <PackagePath>Assets\Icons\House2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\House3.png">
+      <PackagePath>Assets\Icons\House3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\House4.png">
+      <PackagePath>Assets\Icons\House4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\House5.png">
+      <PackagePath>Assets\Icons\House5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\humanDev.png">
+      <PackagePath>Assets\Icons\humanDev.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\instagram.png">
+      <PackagePath>Assets\Icons\instagram.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\logoS.png">
+      <PackagePath>Assets\Icons\logoS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Mood.png">
+      <PackagePath>Assets\Icons\Mood.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Mood2.png">
+      <PackagePath>Assets\Icons\Mood2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Mood3.png">
+      <PackagePath>Assets\Icons\Mood3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Mood4.png">
+      <PackagePath>Assets\Icons\Mood4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Mood5.png">
+      <PackagePath>Assets\Icons\Mood5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\angry.png">
+      <PackagePath>Assets\Icons\mood\angry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\annoyed.png">
+      <PackagePath>Assets\Icons\mood\annoyed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\confused.png">
+      <PackagePath>Assets\Icons\mood\confused.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\happy.png">
+      <PackagePath>Assets\Icons\mood\happy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\love.png">
+      <PackagePath>Assets\Icons\mood\love.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\neutre.png">
+      <PackagePath>Assets\Icons\mood\neutre.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\Sad.png">
+      <PackagePath>Assets\Icons\mood\Sad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\sleepy.png">
+      <PackagePath>Assets\Icons\mood\sleepy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mood\worried.png">
+      <PackagePath>Assets\Icons\mood\worried.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\no_mute.png">
+      <PackagePath>Assets\Icons\no_mute.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\outlook.png">
+      <PackagePath>Assets\Icons\outlook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quizz.png">
+      <PackagePath>Assets\Icons\Quizz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quizz2.png">
+      <PackagePath>Assets\Icons\Quizz2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quizz3.png">
+      <PackagePath>Assets\Icons\Quizz3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quizz4.png">
+      <PackagePath>Assets\Icons\Quizz4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quizz5.png">
+      <PackagePath>Assets\Icons\Quizz5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quotes.png">
+      <PackagePath>Assets\Icons\Quotes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quotes2.png">
+      <PackagePath>Assets\Icons\Quotes2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quotes3.png">
+      <PackagePath>Assets\Icons\Quotes3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quotes4.png">
+      <PackagePath>Assets\Icons\Quotes4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Quotes5.png">
+      <PackagePath>Assets\Icons\Quotes5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Rating - 01.png">
+      <PackagePath>Assets\Icons\Rating - 01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\Heart.png">
+      <PackagePath>Assets\Icons\Heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\mute.png">
+      <PackagePath>Assets\Icons\mute.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\topRated.png">
+      <PackagePath>Assets\Icons\topRated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\topRated2.png">
+      <PackagePath>Assets\Icons\topRated2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\topRated3.png">
+      <PackagePath>Assets\Icons\topRated3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\topRated4.png">
+      <PackagePath>Assets\Icons\topRated4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\topRated5.png">
+      <PackagePath>Assets\Icons\topRated5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Icons\twitter.png">
+      <PackagePath>Assets\Icons\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\ic_drawer.png">
+      <PackagePath>Assets\ic_drawer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\s1.png">
+      <PackagePath>Assets\s1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\sadSppech.png">
+      <PackagePath>Assets\sadSppech.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\speech1.png">
+      <PackagePath>Assets\speech1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\speech2.png">
+      <PackagePath>Assets\speech2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\speech3.png">
+      <PackagePath>Assets\speech3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\speechhAPP.png">
+      <PackagePath>Assets\speechhAPP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\speechHappy.png">
+      <PackagePath>Assets\speechHappy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Muffin.jpeg">
+      <PackagePath>Assets\Muffin.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\Assets\Music.mp3">
+      <PackagePath>Assets\Music.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\SagacityWP.WindowsPhone.xr.xml">
+      <PackagePath>SagacityWP.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AccAnnoyed.xbf">
+      <PackagePath>Views\AccAnnoyed.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AccHappy.xbf">
+      <PackagePath>Views\AccHappy.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AccLoved.xbf">
+      <PackagePath>Views\AccLoved.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AccSad.xbf">
+      <PackagePath>Views\AccSad.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Accsleepy.xbf">
+      <PackagePath>Views\Accsleepy.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AuhtorsPage2.xbf">
+      <PackagePath>Views\AuhtorsPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AuthorPage.xbf">
+      <PackagePath>Views\AuthorPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AuthorsPage3.xbf">
+      <PackagePath>Views\AuthorsPage3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\AuthorsPage4.xbf">
+      <PackagePath>Views\AuthorsPage4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\DetailsAuthorPage.xbf">
+      <PackagePath>Views\DetailsAuthorPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\FavoritesPage.xbf">
+      <PackagePath>Views\FavoritesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\LoginPage.xbf">
+      <PackagePath>Views\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\MoodChoice.xbf">
+      <PackagePath>Views\MoodChoice.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Quizz.xbf">
+      <PackagePath>Views\Quizz.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Quizz2.xbf">
+      <PackagePath>Views\Quizz2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Quizz3.xbf">
+      <PackagePath>Views\Quizz3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Quizz4.xbf">
+      <PackagePath>Views\Quizz4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\Quizz5.xbf">
+      <PackagePath>Views\Quizz5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuoteDetail2.xbf">
+      <PackagePath>Views\QuoteDetail2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuoteDetails.xbf">
+      <PackagePath>Views\QuoteDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuotesPage.xbf">
+      <PackagePath>Views\QuotesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuotesPage2.xbf">
+      <PackagePath>Views\QuotesPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuotesPage3.xbf">
+      <PackagePath>Views\QuotesPage3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\Views\QuotesPage4.xbf">
+      <PackagePath>Views\QuotesPage4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\amor\Desktop\WindowsPhoneFinal\Sgacity4SIM3\SagacityWP1\SagacityWP\SagacityWP.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone.Debug</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone.Debug, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone.Debug</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone.Debug, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

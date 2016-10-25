@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="SagacityWP.Views.Quizz5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SagacityWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/hub7.jpg" Opacity="0.5"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,-12,0,12.333">
+            <Image Source="ms-appx:///Assets/Icons/Quizz5.png" Height="100" Width="100" Margin="12,12"></Image>
+            <TextBlock Text="Quizz"  Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border BorderThickness="2,2,2,2" BorderBrush="White">
+                <StackPanel>
+                    <TextBlock Name="TextBlock_ScoreToHave" FontSize="22" Text="Score to have:"/>
+                    <TextBlock Name="TextBlock_Score" FontSize="20" Text="Your Score:"/>
+                </StackPanel>
+            </Border>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock  Text="Who Said The Quote?" FontSize="30" TextAlignment="Center" >
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFBDBDBD" Offset="0.087"/>
+                            <GradientStop Color="#FFE2BE1D" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Border BorderThickness="2,2,2,2" BorderBrush="White">
+                    <TextBlock VerticalAlignment="Top"  Name="TextBlock_Question" FontSize="32" Width="399"  Foreground="White" TextWrapping="Wrap" MaxHeight="400"/>
+                </Border>
+                <Border Height="250" BorderThickness="2,2,2,2" BorderBrush="White">
+                    <StackPanel HorizontalAlignment="Center" Margin="5,8.333,5,1.333">
+                        <Button x:ConnectionId='1' Name="btnAnswer1"                            Background="Transparent" Width="385" >
+                        </Button>
+                        <Button x:ConnectionId='2' Name="btnAnswer2"                              Background="Transparent" Width="385">
+                        </Button>
+                        <Button x:ConnectionId='3' Name="btnAnswer3"                              Background="Transparent" Width="385">
+                        </Button>
+                        <Button x:ConnectionId='4' Name="btnAnswer4"                               Background="Transparent" Width="385"  >
+                        </Button>
+
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Page>
+

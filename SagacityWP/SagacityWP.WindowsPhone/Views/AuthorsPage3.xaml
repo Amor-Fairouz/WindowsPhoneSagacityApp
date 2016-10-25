@@ -1,0 +1,106 @@
+﻿<Page
+    x:Class="SagacityWP.Views.AuthorsPage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SagacityWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+
+            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/sleepyB.jpg" Opacity="0.5"/>
+        </Grid.Background>
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,12">
+            <Image Source="ms-appx:///Assets/Icons/Authors3.png" Height="100" Width="100" Margin="12,12"></Image>
+            <TextBlock Text="Authors"  Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <!--<StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    
+                </StackPanel>
+            </StackPanel>-->
+            <ProgressBar x:Name="LoadingBar" Visibility="Collapsed" IsEnabled="False" IsIndeterminate="true" Height="4" HorizontalAlignment="Stretch" Foreground="#FF0B6CF8"/>
+
+            <ScrollViewer VerticalScrollMode="Enabled">
+                <StackPanel Orientation="Horizontal" Name="Selectitem">
+                    <ListView Name="lstImpaire" ItemsSource="{Binding}"  Margin="5,25" SelectionChanged="lstImpaire_SelectionChanged">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Background="#554242" Orientation="Vertical">
+                                    <!--<Image>
+                                        <Image.Source>
+                                        -->
+                                    <!--<BitmapImage UriSource="{Binding Image}"/>-->
+                                    <!--
+                                            <BitmapImage UriSource="https://files.parsetfss.com/c0e7ab93-ae10-47a9-86f0-388208d8094b/tfss-29044b37-ad7b-4ced-a2a2-64ef00333348-Napoleon-Bonaparte.jpg"/>
+
+                                        </Image.Source>
+                                    </Image>-->
+                                    <!--<Image Source="{Binding Image}" Width="150" Height="150"></Image>-->
+
+                                    <Border BorderBrush="#554242" BorderThickness="10" Height="170" Width="170">
+                                        <Image Name="ImageAuthor" Source="{Binding Image}" Stretch="Fill"></Image>
+                                    </Border>
+
+                                    <StackPanel Opacity="0.7">
+                                        <TextBlock Text="{Binding Nom}" FontSize="15" HorizontalAlignment="Center" Foreground="White" ></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <ListView Name="lstPaire" ItemsSource="{Binding}"  Margin="5,25" SelectionChanged="lstPaire_SelectionChanged">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Background="#554242" Orientation="Vertical" >
+                                    <!--<Image>
+                                        <Image.Source>
+                                        -->
+                                    <!--<BitmapImage UriSource="{Binding Image}"/>-->
+                                    <!--
+                                            <BitmapImage UriSource="https://files.parsetfss.com/c0e7ab93-ae10-47a9-86f0-388208d8094b/tfss-29044b37-ad7b-4ced-a2a2-64ef00333348-Napoleon-Bonaparte.jpg"/>
+
+                                        </Image.Source>
+                                    </Image>-->
+                                    <!--<Image Source="{Binding Image}" Width="150" Height="150"></Image>-->
+
+                                    <Border BorderBrush="#554242" BorderThickness="10" Height="170" Width="170">
+                                        <Image Name="ImageAuthor" Source="{Binding Image}" Stretch="Fill"></Image>
+                                    </Border>
+
+                                    <StackPanel Opacity="0.7">
+                                        <TextBlock Text="{Binding Nom}" FontSize="15" HorizontalAlignment="Center" Foreground="White" ></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
+    </Grid>
+</Page>

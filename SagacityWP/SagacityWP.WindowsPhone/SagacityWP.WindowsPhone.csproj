@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props" Condition="Exists('..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A6DFF97-F80E-4441-8CDC-6032DA130259}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagacityWP</RootNamespace>
+    <AssemblyName>SagacityWP.WindowsPhone</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <AppxBundle>Always</AppxBundle>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="Models\SampleData.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataSource.cs" />
+    <Compile Include="Models\Authors.cs" />
+    <Compile Include="Models\Citations.cs" />
+    <Compile Include="Models\DataModel.cs" />
+    <Compile Include="Models\dataModelList.cs" />
+    <Compile Include="Models\Favoris.cs" />
+    <Compile Include="Models\FbUser.cs" />
+    <Compile Include="Models\Quizz.cs" />
+    <Compile Include="Models\SampleDataSource.cs" />
+    <Compile Include="Models\ScoreModel.cs" />
+    <Compile Include="Models\TemplateUtility.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ConnexionDetector.cs" />
+    <Compile Include="ViewModel\ContinuationManager.cs" />
+    <Compile Include="ViewModel\DataBaseController.cs" />
+    <Compile Include="ViewModel\FaceBookHelper.cs" />
+    <Compile Include="ViewModel\IsolatedStorageHelper.cs" />
+    <Compile Include="ViewModel\IsolatedStorageHelperQuizz.cs" />
+    <Compile Include="ViewModel\NavigationHelper.cs" />
+    <Compile Include="ViewModel\ObservableDictionary.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\SharedInformation.cs" />
+    <Compile Include="ViewModel\SharedInformationAuthors.cs" />
+    <Compile Include="ViewModel\SharedInformtionFbUser.cs" />
+    <Compile Include="ViewModel\SuspensionManager.cs" />
+    <Compile Include="Views\AccAnnoyed.xaml.cs">
+      <DependentUpon>AccAnnoyed.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccHappy.xaml.cs">
+      <DependentUpon>AccHappy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccLoved.xaml.cs">
+      <DependentUpon>AccLoved.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AccSad.xaml.cs">
+      <DependentUpon>AccSad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accsleepy.xaml.cs">
+      <DependentUpon>Accsleepy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AuhtorsPage2.xaml.cs">
+      <DependentUpon>AuhtorsPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AuthorPage.xaml.cs">
+      <DependentUpon>AuthorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AuthorsPage3.xaml.cs">
+      <DependentUpon>AuthorsPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AuthorsPage4.xaml.cs">
+      <DependentUpon>AuthorsPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DetailsAuthorPage.xaml.cs">
+      <DependentUpon>DetailsAuthorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FavoritesPage.xaml.cs">
+      <DependentUpon>FavoritesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MoodChoice.xaml.cs">
+      <DependentUpon>MoodChoice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quizz.xaml.cs">
+      <DependentUpon>Quizz.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quizz2.xaml.cs">
+      <DependentUpon>Quizz2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quizz3.xaml.cs">
+      <DependentUpon>Quizz3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quizz4.xaml.cs">
+      <DependentUpon>Quizz4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Quizz5.xaml.cs">
+      <DependentUpon>Quizz5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuoteDetail2.xaml.cs">
+      <DependentUpon>QuoteDetail2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuoteDetails.xaml.cs">
+      <DependentUpon>QuoteDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuotesPage.xaml.cs">
+      <DependentUpon>QuotesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuotesPage2.xaml.cs">
+      <DependentUpon>QuotesPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuotesPage3.xaml.cs">
+      <DependentUpon>QuotesPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuotesPage4.xaml.cs">
+      <DependentUpon>QuotesPage4.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\1.jpg" />
+    <Content Include="Assets\2.jpg" />
+    <Content Include="Assets\3.jpg" />
+    <Content Include="Assets\4.jpg" />
+    <Content Include="Assets\5.jpg" />
+    <Content Include="Assets\7.jpg" />
+    <Content Include="Assets\angryB.jpg" />
+    <Content Include="Assets\Authors\a-milne.jpg" />
+    <Content Include="Assets\Authors\abbie-hoffman.jpg" />
+    <Content Include="Assets\Authors\abraham-cowley.jpg" />
+    <Content Include="Assets\Authors\aeschylus-1.jpg" />
+    <Content Include="Assets\Authors\ahlam-mosteghanemi-5.jpg" />
+    <Content Include="Assets\Authors\alan-cumming.jpg" />
+    <Content Include="Assets\Authors\alan-jay-lerner-2.jpg" />
+    <Content Include="Assets\Authors\albert-einstein-2.jpg" />
+    <Content Include="Assets\Authors\alexander-graham-bell.jpg" />
+    <Content Include="Assets\Authors\bill-gates.jpg" />
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\hub1.jpg" />
+    <Content Include="Assets\hub10.jpg" />
+    <Content Include="Assets\hub11.jpg" />
+    <Content Include="Assets\hub2.jpg" />
+    <Content Include="Assets\hub3.jpg" />
+    <Content Include="Assets\hub4.jpg" />
+    <Content Include="Assets\hub5.jpg" />
+    <Content Include="Assets\hub6.jpg" />
+    <Content Include="Assets\hub7.jpg" />
+    <Content Include="Assets\hub8.jpg" />
+    <Content Include="Assets\hub9.jpg" />
+    <Content Include="Assets\HubBackground.theme-dark.png" />
+    <Content Include="Assets\HubBackground.theme-light.png" />
+    <Content Include="Assets\Icons\Authors.png" />
+    <Content Include="Assets\Icons\Authors2.png" />
+    <Content Include="Assets\Icons\Authors3.png" />
+    <Content Include="Assets\Icons\Authors4.png" />
+    <Content Include="Assets\Icons\Authors5.png" />
+    <Content Include="Assets\Icons\Categories.png" />
+    <Content Include="Assets\Icons\Categories2.png" />
+    <Content Include="Assets\Icons\Categories3.png" />
+    <Content Include="Assets\Icons\Categories4.png" />
+    <Content Include="Assets\Icons\Categories5.png" />
+    <Content Include="Assets\Icons\fb.png" />
+    <Content Include="Assets\Icons\google+.png" />
+    <Content Include="Assets\Icons\guest.png" />
+    <Content Include="Assets\Icons\guest1.png" />
+    <Content Include="Assets\Icons\guestImage.png" />
+    <Content Include="Assets\Icons\Heart2.png" />
+    <Content Include="Assets\Icons\Heart3.png" />
+    <Content Include="Assets\Icons\Heart4.png" />
+    <Content Include="Assets\Icons\Heart5.png" />
+    <Content Include="Assets\Icons\House.png" />
+    <Content Include="Assets\Icons\House2.png" />
+    <Content Include="Assets\Icons\House3.png" />
+    <Content Include="Assets\Icons\House4.png" />
+    <Content Include="Assets\Icons\House5.png" />
+    <Content Include="Assets\Icons\humanDev.png" />
+    <Content Include="Assets\Icons\instagram.png" />
+    <Content Include="Assets\Icons\logoS.png" />
+    <Content Include="Assets\Icons\Mood.png" />
+    <Content Include="Assets\Icons\Mood2.png" />
+    <Content Include="Assets\Icons\Mood3.png" />
+    <Content Include="Assets\Icons\Mood4.png" />
+    <Content Include="Assets\Icons\Mood5.png" />
+    <Content Include="Assets\Icons\mood\angry.png" />
+    <Content Include="Assets\Icons\mood\annoyed.png" />
+    <Content Include="Assets\Icons\mood\confused.png" />
+    <Content Include="Assets\Icons\mood\happy.png" />
+    <Content Include="Assets\Icons\mood\love.png" />
+    <Content Include="Assets\Icons\mood\neutre.png" />
+    <Content Include="Assets\Icons\mood\Sad.png" />
+    <Content Include="Assets\Icons\mood\sleepy.png" />
+    <Content Include="Assets\Icons\mood\worried.png" />
+    <Content Include="Assets\Icons\no_mute.png" />
+    <Content Include="Assets\Icons\outlook.png" />
+    <Content Include="Assets\Icons\Quizz.png" />
+    <Content Include="Assets\Icons\Quizz2.png" />
+    <Content Include="Assets\Icons\Quizz3.png" />
+    <Content Include="Assets\Icons\Quizz4.png" />
+    <Content Include="Assets\Icons\Quizz5.png" />
+    <Content Include="Assets\Icons\Quotes.png" />
+    <Content Include="Assets\Icons\Quotes2.png" />
+    <Content Include="Assets\Icons\Quotes3.png" />
+    <Content Include="Assets\Icons\Quotes4.png" />
+    <Content Include="Assets\Icons\Quotes5.png" />
+    <Content Include="Assets\Icons\Rating - 01.png" />
+    <Content Include="Assets\Icons\Heart.png" />
+    <Content Include="Assets\Icons\mute.png" />
+    <Content Include="Assets\Icons\topRated.png" />
+    <Content Include="Assets\Icons\topRated2.png" />
+    <Content Include="Assets\Icons\topRated3.png" />
+    <Content Include="Assets\Icons\topRated4.png" />
+    <Content Include="Assets\Icons\topRated5.png" />
+    <Content Include="Assets\Icons\twitter.png" />
+    <Content Include="Assets\ic_drawer.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\Muffin.jpeg" />
+    <Content Include="Assets\Music.mp3" />
+    <Content Include="Assets\s1.png" />
+    <Content Include="Assets\sadSppech.png" />
+    <Content Include="Assets\sagacty\3f20fdfcee5173870c176f2a1b16956a.jpg" />
+    <Content Include="Assets\sagacty\42f38505e1448aabd7bf9535a5b6a927.jpg" />
+    <Content Include="Assets\sagacty\656fda80432c2b36b1775fc522565e09.jpg" />
+    <Content Include="Assets\sagacty\82ba2097cb9af6f0bba86fc209700795.jpg" />
+    <Content Include="Assets\sagacty\97811b6a5fc2d1926c8efb098e4ccf79.jpg" />
+    <Content Include="Assets\sagacty\b157f5791666fea1fa69f233d38bbba7.jpg" />
+    <Content Include="Assets\sagacty\c637bc522ee56cb34fdd1a5268c3f480.jpg" />
+    <Content Include="Assets\sagacty\cda42a3dd1f3973f5ccf25e3ba8398b5.jpg" />
+    <Content Include="Assets\sagacty\d178d22770eb2944d32caee50ecd4be4.jpg" />
+    <Content Include="Assets\sagacty\d88606755faac4a0bed67d836f36c877.jpg" />
+    <Content Include="Assets\sagacty\da2a693e83531995068f67dc19e65ac6.jpg" />
+    <Content Include="Assets\sagacty\dd201538e610442ff96ea766fa957055.jpg" />
+    <Content Include="Assets\sagacty\dfa95a5b881912d917134b354c3b9e5d.jpg" />
+    <Content Include="Assets\sagacty\e87ac7f5cab7252433eafeaecdd88d44.jpg" />
+    <Content Include="Assets\sagacty\e985b6e244d4f493af915f61ae1bc166.jpg" />
+    <Content Include="Assets\sagacty\f6b9c01b9ed538472a08a84a38dbeb26.jpg" />
+    <Content Include="Assets\sagacty\h10.jpg" />
+    <Content Include="Assets\sagacty\h11.jpg" />
+    <Content Include="Assets\sagacty\h12.jpg" />
+    <Content Include="Assets\sagacty\h15.jpg" />
+    <Content Include="Assets\sagacty\h2.jpg" />
+    <Content Include="Assets\sagacty\h5.jpg" />
+    <Content Include="Assets\sagacty\h6.jpg" />
+    <Content Include="Assets\sagacty\h7.jpg" />
+    <Content Include="Assets\sagacty\h8.jpg" />
+    <Content Include="Assets\sagacty\happy1.jpg" />
+    <Content Include="Assets\sagacty\hh.jpg" />
+    <Content Include="Assets\sagacty\hh1.jpg" />
+    <Content Include="Assets\sleepyB.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\speech1.png" />
+    <Content Include="Assets\speech2.png" />
+    <Content Include="Assets\speech3.png" />
+    <Content Include="Assets\speechhAPP.png" />
+    <Content Include="Assets\speechHappy.png" />
+    <Content Include="Assets\splashScreen.jpg" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\AccAnnoyed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AccHappy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AccLoved.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AccSad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Accsleepy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AuhtorsPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AuthorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AuthorsPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AuthorsPage4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DetailsAuthorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FavoritesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MoodChoice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Quizz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Quizz2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Quizz3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Quizz4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Quizz5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuoteDetail2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuoteDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuotesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuotesPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuotesPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuotesPage4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DrawerLayout, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DrawerLayout.1.0.4\lib\DrawerLayout.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Facebook.7.0.6\lib\portable-win81+wpa81\Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NotificationsExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NotificationsExtensions.1.0.0\lib\portable-wpa81+win81\NotificationsExtensions.winmd</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse, Version=1.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.2\lib\wpa81\Parse.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse.WinRT, Version=1.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.2\lib\wpa81\Parse.WinRT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLitePCL, Version=3.8.7.2, Culture=neutral, PublicKeyToken=bddade01e9c850c5, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows Phone</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WP81, Version=3.9.2">
+      <Name>SQLite for Windows Phone 8.1</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="..\SagacityWP.Shared\SagacityWP.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props'))" />
+    <Error Condition="!Exists('..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets" Condition="Exists('..\..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

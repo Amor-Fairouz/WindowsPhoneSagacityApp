@@ -1,0 +1,159 @@
+﻿<Page
+    x:Class="SagacityWP.Views.Accsleepy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SagacityWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/sleepyB.jpg" Opacity="0.5"/>
+        </Grid.Background>
+        <MediaElement Source="/Assets/Music.mp3" x:Name="media"/>
+        <StackPanel >
+            <StackPanel Visibility="Collapsed" Name="StckPnlProfile_Layout" Orientation="Horizontal" HorizontalAlignment="Center" Margin="12,12">
+
+                <!--<Image Stretch="None" x:Name="picProfile"  Margin="12,25"/>-->
+
+                <Ellipse Name="ell" Height="128" Stroke="White" VerticalAlignment="Center" Width="128" Margin="12,25">
+                    <Ellipse.Fill>
+                        <ImageBrush x:Name="imgProfile"  Stretch="UniformToFill"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <TextBlock  Name="TxtUserProfile" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="25" FontFamily="Kunstler Script"/>
+
+
+
+            </StackPanel >
+            <!--ScrollViewer VerticalScrollMode="Enabled">-->
+            <Pivot SelectedIndex="{Binding CommandGroup, Mode=TwoWay}" x:Name="MainPivot" Foreground="White" IsHoldingEnabled="True" SelectionChanged="Pivot_SelectionChanged" Height="670">
+                <Pivot.HeaderTemplate>
+                    <DataTemplate >
+                        <Image Source="{Binding}"  Width="48" Height="48" Margin="25,15" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" UseLayoutRounding="True"/>
+                    </DataTemplate>
+                </Pivot.HeaderTemplate>
+
+                <PivotItem Header="ms-appx:///Assets/Icons/House3.png" Name="item1" Tapped="item1_Tapped">
+                    <StackPanel >
+                        <Image x:Name="soundPic" Source="ms-appx:///Assets/Icons/no_mute.png" Width="50" Height="50" HorizontalAlignment="Left" Tapped="Image_Tapped_1"></Image>
+
+                        <ScrollViewer VerticalScrollMode="Enabled" Height="489" Width="376">
+                            <StackPanel Orientation="Vertical" >
+                                <StackPanel Height="280" Width="366">
+                                    <StackPanel.Background>
+                                        <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/speech3.png"/>
+                                    </StackPanel.Background>
+                                    <TextBlock x:Name="Daily" Text="{Binding}" FontSize="20" FontFamily="Arial" Width="362" TextWrapping="Wrap"/>
+                                    <TextBlock x:Name="pagename" TextWrapping="WrapWholeWords" Foreground="White" FontWeight="Bold" FontSize="25" FontFamily="Kunstler Script" Tapped="show" RenderTransformOrigin="0.502,1.883" Height="145" Margin="26,0,52.833,0" >
+                                      
+                                    	<Run>
+                                    		<Run.Foreground>
+                                    			<SolidColorBrush Color="Black">
+                                    				<SolidColorBrush.RelativeTransform>
+                                    					<MatrixTransform Matrix="Identity"/>
+                                    				</SolidColorBrush.RelativeTransform>
+                                    				<SolidColorBrush.Transform>
+                                    					<MatrixTransform Matrix="Identity"/>
+                                    				</SolidColorBrush.Transform>
+                                    			</SolidColorBrush>
+                                    		</Run.Foreground>
+                                    	</Run>
+                                    </TextBlock>
+
+                                </StackPanel>
+                                <Grid Height="362">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="12,12">
+                                        <Image Source="ms-appx:///Assets/Icons/Authors3.png" Height="128" Width="128" Tapped="Navigate_Authors_Page"/>
+                                        <TextBlock HorizontalAlignment="Center" FontSize="14">
+                                        	<Run Text="Authors"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Grid.Row="0" Grid.Column="1">
+                                        <Image Source="ms-appx:///Assets/Icons/Quotes3.png" Height="128" Width="128" Tapped="Image_Tapped" Margin="0,0,40.167,0" HorizontalAlignment="Right"/>
+                                        <TextBlock HorizontalAlignment="Center" FontSize="14">
+                                        	<Run Text="Quotes"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Grid.Row="1" Grid.Column="0" Margin="12,12">
+                                        <Image Source="ms-appx:///Assets/Icons/Quizz3.png" Height="128" Width="128" Tapped="onclickQuizz"/>
+                                        <TextBlock HorizontalAlignment="Center" FontSize="14">
+                                        	<Run Text="Quizz"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Grid.Row="1" Grid.Column="1" Margin="12,12">
+                                        <Image Source="ms-appx:///Assets/Icons/Mood3.png" Height="128" Width="128" Tapped="onClickMood"/>
+                                        <TextBlock HorizontalAlignment="Center" FontSize="14">
+                                        	<Run Text="Choose YourMood"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="ms-appx:///Assets/Icons/Heart3.png" Name="item2" Tapped="item2_Tapped">
+                    <StackPanel>
+                        <ScrollViewer VerticalScrollMode="Enabled" Height="500">
+                            <ListView Name="lstImpaire" ItemsSource="{Binding}" Margin="0,12" IsItemClickEnabled="True" ItemClick="lstImpaire_ItemClick">
+
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" >
+                                            <StackPanel Tapped="StackPanel_Tapped">
+
+                                            </StackPanel>
+                                            <StackPanel Width="360" Background="#CC8B2B2B" >
+
+                                                <Image Source="ms-appx:///Assets/Icons/Heart.png" Width="40" Height="40"></Image>
+                                                <TextBlock Text="{Binding Content}" FontSize="20" FontFamily="Arial" Width="320" TextWrapping="Wrap"></TextBlock>
+                                                <TextBlock FontSize="20" Name="TxtUserProfile" TextWrapping="Wrap"  Foreground="White" VerticalAlignment="Center"/>
+
+                                            </StackPanel>
+
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+                        </ScrollViewer>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="ms-appx:///Assets/Icons/topRated3.png" Name="item3" Tapped="item3_Tapped">
+                    <Grid  Grid.Row="1" x:Name="ContentRoot">
+                        <ScrollViewer VerticalScrollMode="Enabled" Margin="-4,-19,4,19" >
+                            <StackPanel Orientation="Horizontal" Name="Selectitem">
+                                <ListView x:Name="lstQuote" ItemsSource="{Binding}"  Margin="0,25" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel HorizontalAlignment="Center" Margin="0,12">
+                                                <Image Name="ImageAuthor" Source="{Binding Image}" Width="400" Height="400"></Image>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                                <ProgressBar x:Name="LoadingBar" Visibility="Collapsed" IsEnabled="False" IsIndeterminate="true" Height="4" HorizontalAlignment="Stretch" Foreground="#FF0B6CF8"/>
+
+                            </StackPanel>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+
+            </Pivot>
+            <!--</ScrollViewer>-->
+        </StackPanel>
+    </Grid>
+
+</Page>

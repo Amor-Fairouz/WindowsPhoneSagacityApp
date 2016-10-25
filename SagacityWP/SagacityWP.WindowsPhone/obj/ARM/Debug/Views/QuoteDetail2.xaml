@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="SagacityWP.Views.QuoteDetail2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SagacityWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+>
+    <Page.Background>
+        <ImageBrush Stretch="Fill"/>
+    </Page.Background>
+
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" x:Name="appBar" Height="50">
+            <CommandBar.PrimaryCommands>
+
+                <AppBarButton x:ConnectionId='1'  Label="Add" Icon="Favorite" RequestedTheme="Light" Foreground="#FFB61010"                            />
+                <AppBarButton x:ConnectionId='2' Label="Share" Icon="ReShare"                            ></AppBarButton>
+            </CommandBar.PrimaryCommands>
+
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.Background>
+
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/angryB.jpg" Opacity="0.5"/>
+        </Grid.Background>
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,12" Opacity="1">
+            <Image Source="ms-appx:///Assets/Icons/Quotes2.png" Height="64" Width="64" Margin="12,12"></Image>
+            <TextBlock Text="Quotes"  Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!--<StackPanel Grid.Row="1">
+
+            <Image Source="ms-appx:///Assets/s1.png" Stretch="Uniform" Width="380"/>
+            <TextBlock x:Name="quote" Text="{Binding}" FontSize="20" FontFamily="Arial" Width="362" TextWrapping="Wrap" Margin="19,0"/>
+
+        </StackPanel>-->
+        <StackPanel Grid.Row="1">
+            <Border BorderBrush="#FF9C6A3E" BorderThickness="15" Height="470" Width="350" CornerRadius="15,15,15,15">
+                <Image Name="quoteImage" Stretch="Fill" ></Image>
+            </Border>
+        </StackPanel>
+
+    </Grid>
+
+</Page>
+

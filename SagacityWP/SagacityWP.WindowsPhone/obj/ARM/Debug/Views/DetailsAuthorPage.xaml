@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="SagacityWP.Views.DetailsAuthorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SagacityWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="img" Stretch="Fill" ImageSource="ms-appx:///Assets/sagacty/b157f5791666fea1fa69f233d38bbba7.jpg" Opacity="0.5"/>
+        </Grid.Background>
+
+
+        <StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="12,12">
+                <!--<Image Name="imgAuth" Source="{Binding Image}" Height="100" Width="100" Margin="12,12"></Image>-->
+
+                <ScrollViewer HorizontalScrollMode="Enabled">
+                    <TextBlock Name="nameAuth" Text="{Binding Nom}"  Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" VerticalAlignment="Center"/>
+                </ScrollViewer>
+            </StackPanel>
+            <ProgressBar x:Name="LoadingBar"  Visibility="Collapsed" IsEnabled="False" IsIndeterminate="true" Height="4" HorizontalAlignment="Stretch"/>
+
+            <Pivot x:ConnectionId='1' SelectedIndex="{Binding CommandGroup, Mode=TwoWay}" x:Name="MainPivot"                                                Height="572">
+                <PivotItem x:ConnectionId='2'  Header="Quotes" Name="item1"                      >
+                    <ScrollViewer VerticalScrollMode="Enabled" Margin="0,-4,-0.333,20">
+
+                        <StackPanel Orientation="Vertical" >
+
+                            <ListView x:ConnectionId='4' Name="lstSource" ItemsSource="{Binding}"  Margin="0,12"                                               HorizontalAlignment="Center">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+
+
+                                        <StackPanel Margin="0,25">
+                                            <Image Source="{Binding Image}" Width="400" Height="400"></Image>
+                                        </StackPanel>
+
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackPanel>
+
+                    </ScrollViewer>
+
+                </PivotItem>
+                <PivotItem x:ConnectionId='3' Header="Biography" Name="item2"                      >
+
+                    <ScrollViewer VerticalScrollMode="Enabled">
+
+
+                        <TextBlock Name="desAuth" Text="{Binding Description}" FontSize="20" FontFamily="Arial" Width="362" TextWrapping="Wrap">
+
+                        </TextBlock>
+
+
+                    </ScrollViewer>
+
+                </PivotItem>
+
+
+            </Pivot>
+
+        </StackPanel>
+    </Grid>
+</Page>
+
